@@ -1,17 +1,16 @@
 #pragma once
-#include "StartInterface.h"
-#include "Operate.h"
-#include"Hex.h"
-#include"Infinite.h"
-#include"Record.h"
-#include"Rect.h"
+#include"StartInterface.h"
+#include"playgame.h"
+#include<fstream>
+#include<math.h>
 
 
+void put_record_in(int record);
 
-void draw_select_interface();
-void playgame();
-void react_in_select_interface(int* num);
-void back_in_playgame_interface(int x1, int x2, int y1, int y2);
+void showrecord();
+int  put_record_out();
+
+
 
 
 
