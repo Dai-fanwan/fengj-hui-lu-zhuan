@@ -1,27 +1,18 @@
 #pragma once
-#include "StartInterface.h"
-#include"windows.h"
-#include"Operate.h"
-#include"playgame.h"
+#include<graphics.h>
+#include<conio.h>
+#include<string>
+#include<iostream>
 #include<fstream>
-//四边形模式
+using namespace std;
 
-class Rect
-{
+void draw_interface();
+void reaction(int* num);//num用来计数，防止点击了界面上的图标后依然可以进行点击原有图标位置的操作
+void drawtriangle(int x,int y);
+void drawinstruction();
+void back(int x1,int x2,int y1,int y2);//返回标志左上角和右下角的坐标
 
-	int dot[10][10];
-	int answer_dots[10][10];
 
-public:
-	void set_answer_dots(string);
-	void draw_rect_dots();//画矩形点阵
-	void draw_num();//写出矩形中的数字
-	void set_dot(int ,int);//对rect中的点阵进行操作，标记点
-};
-
-void play_rect();
-void back_in_rect_interface(int,int,int,int,Rect&);//声明里不写变量名也可以
-void draw_back();
 
 
 
