@@ -1,2 +1,11 @@
-# feng-hui-lu-zhuan
-A practical training of c++ course.
+#pragma once
+#include<graphics.h>
+
+class Hex
+{
+public:
+	int sidelen;
+
+};
+
+void play_hex();
