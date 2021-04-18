@@ -1,10 +1,9 @@
-#include"Hex.h"
+#include"Infinite.h"
 
-void play_hex()
+void play_infinite()
 {
 
 }
-
 
 
 
