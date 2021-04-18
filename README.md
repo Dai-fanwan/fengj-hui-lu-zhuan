@@ -1,2 +1,2 @@
-# fengj-hui-lu-zhuan
+# feng-hui-lu-zhuan
 A practical training of c++ course.
