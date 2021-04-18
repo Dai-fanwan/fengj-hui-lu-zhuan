@@ -1,17 +1,17 @@
 #pragma once
-#include<math.h>
 #include "StartInterface.h"
+#include "Operate.h"
+#include"Hex.h"
+#include"Infinite.h"
+#include"Record.h"
 #include"Rect.h"
 
 
 
-void rect_select(Rect&);
+void draw_select_interface();
+void playgame();
+void react_in_select_interface(int* num);
+void back_in_playgame_interface(int x1, int x2, int y1, int y2);
 
-template<typename T>
-void pitch(int x, int y,MOUSEMSG msg,T shape);
-
-void cancel(int [10][10]);
-
-void link();//将选中的相邻两点相连
 
 
